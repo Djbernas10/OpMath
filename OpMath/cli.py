@@ -10,7 +10,7 @@ import click
 def main(func, num1, num2):
     if func=="soma":
         num1 + num2
-    elif func=="menor":
+    elif func=="sub":
         num1 - num2
     else:
         print("Introduza 'soma', ou 'sub'.")
